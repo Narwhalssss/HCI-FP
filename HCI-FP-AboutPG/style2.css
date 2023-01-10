@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    background-color: #fafafa;
+}
+body{
+    background-image: url(backgroundv2.png);
+    background-size: 2560px 1440px 50%;
+    animation: moving-background 60s linear infinite;
+    }
+@keyframes moving-background{
+    0%{
+        background-position-x: 0%;
+    }
+    
+    100%{
+        background-position-x: 100%;
+    }    
+}
+.about {
+    width: 100%;
+    padding: 78px 0px;
+}
+.about img {
+    height: auto;
+    width: 420px;
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1 {
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.about-text h5 {
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 25px;
+    margin-bottom: 45px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+button {
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+    border-color: black;
+}
+button:hover {
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.container {
+    width: 85%;
+    height: 30%;
+    padding: 20px;
+    margin: 100px auto;
+    border: 10px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+.container p {
+    width: 1000px;
+    height: 500;
+    display: flex;
+}
+
+.container img {
+    align-content: flex;
+}
