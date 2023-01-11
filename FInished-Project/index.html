@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calendar </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+    <body>
+      <div class="top-bar">
+        <img src="logo.png" alt="logo">
+        <a class="event_item" href="index.html">Home</a>
+        <a class="event_item" href="about.html">About</a>
+        <a class="event_item" href="contact.html">Contact</a>
+        <a class="event_item" href="calendarv2.html" id="corner">Calendar</a>
+        <a class="event_item" href="login_page.html" id="corner">Log Out</a>
+      </div>
+
+     
+      <div id="interest-modal">
+        <div class="modal">
+          <div>
+            <i class="fa fa-2x fa-times" id="close-modal"></i>
+          </div>
+          <div>
+            <h2>Pick your interest</h2>
+            <form action="#">
+              <div class="small-container">
+                <img src="controler.png" alt="controler">
+                <div id="container1" >Gaming</div>
+              </div>
+              <div class="small-container">
+                <img src="stocks.png" alt="stocks">
+                <div id="container2" >Economy</div>
+              </div>
+              <div class="small-container">
+                <img src="computer.png" alt="computer">
+                <div id="container3" >Technology</div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="container">
+            <div class="calendar light">
+              <div class="calendar_header">
+                <h1 class = "header_title">Welcome Back</h1>
+                <p class="header_copy"> Calendar Plan</p>
+              </div>
+              <div class="calendar_plan">
+                <div class="cl_plan">
+                  <div class="cl_title">Today</div>
+                  <div class="cl_copy" id="current_date">: </div>
+                  <div>
+                    <form action="calendarv2.html">
+                      <button type="submit" class="cl_add">
+                        <span>&#43;</span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="calendar_events">
+                <p class="ce_title">Upcoming Events</p>
+                <div class="event_item">
+                  <div class="ei_Dot dot_active"></div>
+                  <div id="redirect" class="ei_Title">Add Plan</div>
+                  <div class="ei_Copy"></div>
+                </div>
+                
+              </div>
+          </div>
+        </div>
+      </div>
+        <div id="game-article1" class="box">
+          <h1 class="event_item">The Biggest Gaming News For January 2023</h1>
+          <h4></h4>
+        </div>
+        <div id="game-article2" class="box">
+          <h1 class="event_item">Why this CS:GO AK-47 skin will sell for over $400,000</h1>
+          <h4></h4>
+        </div>
+        <div id="game-article3" class="box">
+          <h1 class="event_item">Naughty Dog aims to avoid crunch with later game announcements</h1>
+          <h4></h4>
+        </div>
+        <div id="econ-article1" class="box">
+          <h1 class="event_item">FTX founder Sam Bankman-Fried pleads not guilty</h1>
+          <h4></h4>
+        </div>
+        <div id="econ-article2" class="box">
+          <h1 class="event_item">Tesla Has a Major Problem Thats Bigger Than Elon Musks Twitter Hijinks</h1>
+          <h4></h4>
+        </div>
+        <div id="econ-article3" class="box">
+          <h1 class="event_item">Should I buy Coca-Cola shares in January 2023?</h1>
+        </div>
+        <div id="tech-article1" class="box">
+          <h1 id="tech"class="event_item"> </h1>
+        </div>
+        <div id="tech-article2" class="box">
+          <h1 class="event_item">8 Most Impressive Phones Rumored for 2023</h1>
+        </div>
+        <div id="tech-article3" class="box">
+          <h1 class="event_item">Nvidia unveils a broad range of efficient new laptop GPUs, from RTX 4050 to 4090</h1>
+        </div>
+      </div>
+        
+         
+    <script src="time.js" ></script>
+    <script src="modal.js"></script>
+    </body>
+</html>
+
+
