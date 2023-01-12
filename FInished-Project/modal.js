@@ -13,25 +13,25 @@ $('.box').hide();
 
 
 $('#container1').click(function() {
-    modal.hide(1000);
-    gamers.show(1000);
-    gamer.show(1000);
-    game.show(1000);
+    modal.hide(500);
+    gamers.show(500);
+    gamer.show(500);
+    game.show(500);
 });
 
 $('#container2').click(function() {
-    modal.hide(1000);
-    econ.show(1000);
-    econo.show(1000);
-    econom.show(1000);
+    modal.hide(500);
+    econ.show(500);
+    econo.show(500);
+    econom.show(500);
 
 });
 
 $('#container3').click(function() {
-    modal.hide(1000);
-    tech.show(1000);
-    techn.show(1000);
-    techno.show(1000);
+    modal.hide(500);
+    tech.show(500);
+    techn.show(500);
+    techno.show(500);
 });
 
 gamer.click(function() {
@@ -70,7 +70,7 @@ techno.click(function() {
     window.location = 'https://arstechnica.com/gadgets/2023/01/nvidia-unveils-a-broad-range-of-efficient-new-laptop-gpus-from-rtx-4050-to-4090/';
 })
 $('#redirect').click(function() {
-    window.location = 'calendarv2.html';
+    window.location = 'calendar.html';
 
 })
 
