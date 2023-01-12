@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style8.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <img src="logo.png" alt="logo">
+        <a class="event_item" href="index.html">Home</a>
+        <a class="event_item" href="about.html">About</a>
+        <a class="event_item" href="contact.html">Contact</a>
+        <a class="event_item" href="calendar.html" id="corner">Calendar</a>
+        <a class="event_item" href="login_page.html" id="corner">Log Out</a>
+    </div>
+    <div class="site-container">
+        <div class="calendar-container">
+            <table>
+                <caption>
+                    <span class="month">January 2023</span>
+                </caption>
+                <tr>
+                    <div class="top-left"><th>Sun</th></div>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th class="top-right">Sat</th>
+                </tr>
+                <tr>
+                    <td><div class="date" onclick="showPopup(this)">1</div></td>
+                    <td><div class="date" onclick="showPopup(this)">2</div></td>
+                    <td><div class="date" onclick="showPopup(this)">3</div></td>
+                    <td><div class="date" onclick="showPopup(this)">4</div></td>
+                    <td><div class="date" onclick="showPopup(this)">5</div></td>
+                    <td><div class="date" onclick="showPopup(this)">6</div></td>
+                    <td><div class="date" onclick="showPopup(this)">7</div></td>
+                </tr>
+                <tr>
+                    <td><div class="date" onclick="showPopup(this)">8</div></td>
+                    <td><div class="date" onclick="showPopup(this)">9</div></td>
+                    <td><div class="date" onclick="showPopup(this)">10</div></td>
+                    <td><div class="date" onclick="showPopup(this)">11</div></td>
+                    <td><div class="date" onclick="showPopup(this)">12</div></td>
+                    <td><div class="date" onclick="showPopup(this)">13</div></td>
+                    <td><div class="date" onclick="showPopup(this)">14</div></td>
+                </tr>
+                <tr>
+                    <td><div class="date" onclick="showPopup(this)">15</div></td>
+                    <td><div class="date" onclick="showPopup(this)">16</div></td>
+                    <td><div class="date" onclick="showPopup(this)">17</div></td>
+                    <td><div class="date" onclick="showPopup(this)">18</div></td>
+                    <td><div class="date" onclick="showPopup(this)">19</div></td>
+                    <td><div class="date" onclick="showPopup(this)">20</div></td>
+                    <td><div class="date" onclick="showPopup(this)">21</div></td>
+                </tr>
+                <tr>
+                    <td><div class="date" onclick="showPopup(this)">22</div></td>
+                    <td><div class="date" onclick="showPopup(this)">23</div></td>
+                    <td><div class="date" onclick="showPopup(this)">24</div></td>
+                    <td><div class="date" onclick="showPopup(this)">25</div></td>
+                    <td><div class="date" onclick="showPopup(this)">26</div></td>
+                    <td><div class="date" onclick="showPopup(this)">27</div></td>
+                    <td><div class="date" onclick="showPopup(this)">28</div></td>
+                </tr>
+                <tr>
+                    <td><div class="date" onclick="showPopup(this)">29</div></td>
+                    <td><div class="date" onclick="showPopup(this)">30</div></td>
+                    <td><div class="date" onclick="showPopup(this)">31</div></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <textarea id="event-text"></textarea>
+        <button id="save-event">Save</button>
+        <button id="cancel-event">Cancel</button>
+    </div>
+    
+   <script src="events.js"></script>
+</body>
+</html>
