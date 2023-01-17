@@ -8,7 +8,7 @@ People tend to forget what they need to do, people tend to forget what stuff nee
 
 ## Screen Shoots
 **Main Page**
-![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage1.jpg)
-![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage2.jpg)
-![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage3.jpg)
-![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage4.jpg)
+![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage1.jpg?raw=true)
+![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage2.jpg?raw=true)
+![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage3.jpg?raw=true)
+![alt text](https://github.com/Narwhalssss/HCI-FP/tree/main/images/mainpage4.jpg?raw=true)
